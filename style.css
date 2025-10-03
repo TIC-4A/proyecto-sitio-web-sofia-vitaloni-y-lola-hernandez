@@ -202,3 +202,10 @@ body {
 .help-us-section {
     height: 85px;
 }
+
+ .about-us-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border: 3px solid #cf0463;
+}
