@@ -46,16 +46,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // --- 3. Referencias del Modal ---
+   // --- 3. Referencias del DOM y Productos ---
+    
+    // Referencias del Modal
     const modal = document.getElementById('productModal');
     const modalImage = document.getElementById('modalImage');
     const modalTitle = document.getElementById('modalTitle');
     const modalDescription = document.getElementById('modalDescription');
     const closeButton = document.querySelector('.close-button');
-    
-    // Lista de IDs de los productos
-    const productIds = ['Bolsos', 'Pashminas', 'Toallones', 'Cepillos', 'Pizzas', 'Cubresillones'];
 
+    // Referencias de los Productos por sus IDs
+    const bolsosElement = document.getElementById('Bolsos');
+    const pashminasElement = document.getElementById('Pashminas');
+    const toallonesElement = document.getElementById('Toallones'); // Nota: Es 'Toallones' con 'T' mayúscula
+    const cepillosElement = document.getElementById('Cepillos');
+    const pizzasElement = document.getElementById('Pizzas');
+    const cubresillonesElement = document.getElementById('Cubresillones');
+
+    // Array de IDs de los productos para la asignación de eventos (usado en el paso 5)
+    const productIds = ['Bolsos', 'Pashminas', 'Toallones', 'Cepillos', 'Pizzas', 'Cubresillones'];
     // --- 4. Función principal para abrir el modal ---
     function openProductModal(productId) {
         const data = productsData[productId];
@@ -100,3 +109,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
