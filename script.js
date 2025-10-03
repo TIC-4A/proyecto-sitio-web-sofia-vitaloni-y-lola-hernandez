@@ -48,14 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
    // --- 3. Referencias del DOM y Productos ---
     
-    // Referencias del Modal
-    const modal = document.getElementById('productModal');
-    const modalImage = document.getElementById('modalImage');
-    const modalTitle = document.getElementById('modalTitle');
-    const modalDescription = document.getElementById('modalDescription');
-    const closeButton = document.querySelector('.close-button');
+   
 
-    // Referencias de los Productos por sus IDs
     const bolsosElement = document.getElementById('Bolsos');
     const pashminasElement = document.getElementById('Pashminas');
     const toallonesElement = document.getElementById('Toallones'); // Nota: Es 'Toallones' con 'T' mayúscula
@@ -109,4 +103,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
 
