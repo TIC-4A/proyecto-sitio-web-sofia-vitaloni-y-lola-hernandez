@@ -1,736 +1,235 @@
 body {
-
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-    background-color: #ffe2ef;
-
-    color:#cf0463;
-
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffe2ef;
+    color:#cf0463;
 }
-
-
 
 .header {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-    padding: 15px 50px;
-
-    background-color: #ff8fc3;
-
-    border-bottom: 5px solid #cf0463;
-
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #ff8fc3;
+    border-bottom: 5px solid #cf0463;
 
 }
-
-
 
 .header-logo {
-
-    font-weight: 700;
-
-    font-size: 24px;
-
-    color: #cf0463;
-
+    font-weight: 700;
+    font-size: 24px;
+    color: #cf0463;
 }
-
-
 
 .header-search input {
-
-    border: none;
-
-    outline: none;
-
-    padding: 5px;
-
-    font-size: 14px;
-
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
 }
-
-
 
 .header-search button {
-
-    background-color: white;
-
-    border: none;
-
-    cursor: pointer;
-
-    color: #cf0463 ;
-
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: #cf0463 ;
 }
-
-
 
 .header-social {
-
-    font-size: 14px;
-
-    text-align: right;
-
+    font-size: 14px;
+    text-align: right;
 }
-
-
 
 .header-social a {
-
-    display: block;
-
-    color: #007bff;
-
-    text-decoration: none;
-
-    font-weight: 700;
-
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 700;
 }
-
-
 
 .navbar {
-
-    background-color: #fff;
-
-    padding: 10px 50px;
-
-    border-bottom: 5px solid #cf0463;
-
-    text-align: center;
-
+    background-color: #fff;
+    padding: 10px 50px;
+    border-bottom: 5px solid #cf0463;
+    text-align: center;
 }
-
-
 
 .navbar a {
-
-    text-decoration: none;
-
-    color: #cf0463;
-
-    margin: 0 15px;
-
-    font-weight: 500;
-
-    font-size: 14px;
-
+    text-decoration: none;
+    color: #cf0463;
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 14px;
 }
-
-
 
 .main-content {
-
-    padding: 20px 50px;
-
+    padding: 20px 50px;
 }
-
-
 
 .help-us-section {
-
-    border: 5px solid;
-
-    border-color:#cf0463;
-
-    background-color: #ffffff;
-
-    border-radius: 8px;
-
-    padding: 50px 20px;
-
-    text-align: center;
-
-    margin-bottom: 20px;
-
+    border: 5px solid;
+    border-color:#cf0463;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
-
-
 
 .help-us-text h1, .help-us-text h2 {
-
-    margin: 0;
-
-    font-size: 32px;
-
-    font-weight: 700;
-
-    color: #cf0463;
-
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #cf0463;
 }
-
-
 
 .content-container {
-
-    display: flex;
-
-    gap: 20px;
-
+    display: flex;
+    gap: 20px;
 }
-
-
 
 .about-us {
-
-    flex: 1;
-
-    background-color: #fff;
-
-    border-radius: 8px;
-
-    padding: 20px;
-
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+    flex: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-
-
 
 
 .about-us-header h3 {
-
-    margin-top: 0;
-
-    text-align: center;
-
-    color: #cf0463;
-
-    border-bottom: 1px solid #eee;
-
-    padding-bottom: 10px;
-
+    margin-top: 0;
+    text-align: center;
+    color: #cf0463;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
 }
-
-
 
 .about-us-content {
-
-    text-align: center;
-
+    text-align: center;
 }
-
-
 
 .about-us-content img {
-
-    max-width: 100%;
-
-    height: auto;
-
-    margin-bottom: 15px;
-
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
-
-
 
 .products {
-
-    flex: 2;
-
-    background-color: #fff;
-
-    border-radius: 8px;
-
-    padding: 20px;
-
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+    flex: 2;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-
 
 .products-header h3 {
-
-    margin-top: 0;
-
-    text-align: center;
-
-    color: #cf0463;
-
-    border-bottom: 1px solid #eee;
-
-    padding-bottom: 10px;
-
+    margin-top: 0;
+    text-align: center;
+    color: #cf0463;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
 }
-
-
 
 .product-grid {
-
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 15px;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
-
-
 
 /* --- ESTILOS MODIFICADOS PARA EL CUADRADO 1:1 Y AJUSTE DE IMAGEN --- */
-
 .product-item {
-
-    position: relative; 
-
-    display: flex; 
-
-    flex-direction: column; 
-
-    align-items: center; 
-
-    justify-content: space-between;
-
-    background-color: #ffe2ef;
-
-    border: 3px solid #cf0463;
-
-    border-radius: 5px;
-
-    padding: 5px; 
-
-    box-sizing: border-box; 
-
-    text-align: center;
-
-    font-size: 14px; 
-
-    font-weight: 700;
-
-    height: unset; 
-
+    position: relative; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #ffe2ef;
+    border: 3px solid #cf0463;
+    border-radius: 5px;
+    padding: 5px; 
+    box-sizing: border-box; 
+    text-align: center;
+    font-size: 14px; 
+    font-weight: 700;
+    height: unset; 
 }
-
-
 
 /* Truco CSS para forzar la proporción 1:1 (cuadrado) */
-
 .product-item::before {
-
-    content: '';
-
-    display: block;
-
-    padding-top: 100%; 
-
+    content: '';
+    display: block;
+    padding-top: 100%; 
 }
-
-
 
 .product-image-container {
-
-    position: absolute;
-
-    top: 0;
-
-    left: 0;
-
-    right: 0;
-
-    bottom: 0;
-
-    padding-bottom: 25px; 
-
-    width: 100%;
-
-    height: 100%;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    box-sizing: border-box;
-
-    overflow: hidden; 
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 25px; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden; 
 }
-
-
 
 .product-item span {
-
-    position: absolute;
-
-    bottom: 5px;
-
-    z-index: 10;
-
-    color: #cf0463;
-
+    position: absolute;
+    bottom: 5px;
+    z-index: 10;
+    color: #cf0463;
 }
-
-
 
 .product-item img {
-
-    width: 100%; 
-
-    height: 100%;
-
-    object-fit: cover; /* La clave para que la imagen cubra el área y se recorte */
-
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; /* La clave para que la imagen cubra el área y se recorte */
 }
-
 /* --- FIN ESTILOS MODIFICADOS --- */
 
 
-
-
-
 .header-search {
-
-    display: flex;
-
-    border: 4px solid #cf0463;
-
-    border-radius: 20px;
-
-    overflow: hidden;
-
-    padding: 5px 10px;
-
-} 
-
-
+    display: flex;
+    border: 4px solid #cf0463;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 5px 10px;
+} 
 
 .help-us-section {
+    height: 85px;
+    } 
 
-    height: 85px;
-
-    } 
-
-
-
- .about-us-content img {
-
-    max-width: 100%;
-
-    height: auto;
-
-    margin-bottom: 15px;
-
-    border: 3px solid #cf0463;
-
+ .about-us-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border: 3px solid #cf0463;
 }
 
-
-
-.help-us-section {
-
-    border: 5px solid;
-
-    border-color:#cf0463;
-
-    background-color: #ffffff;
-
-    border-radius: 8px;
-
-    padding: 50px 20px;
-
-    text-align: center;
-
-    margin-bottom: 20px;
-
-}
-
-
-
-.help-us-text h1, .help-us-text h2 {
-
-    margin: 0;
-
-    font-size: 32px;
-
-    font-weight: 700;
-
-    color: #cf0463;
-
-}
-
-
-
-.content-container {
-
-    display: flex;
-
-    gap: 20px;
-
-}
-
-
-
-.about-us {
-
-    flex: 1;
-
-    background-color: #fff;
-
-    border-radius: 8px;
-
-    padding: 20px;
-
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-}
-
-
-
-.about-us-header h3 {
-
-    margin-top: 0;
-
-    text-align: center;
-
-    color: #cf0463;
-
-    border-bottom: 1px solid #eee;
-
-    padding-bottom: 10px;
-
-}
-
-
-
-.about-us-content {
-
-    text-align: center;
-
-}
-
-
-
-.about-us-content img {
-
-    max-width: 100%;
-
-    height: auto;
-
-    margin-bottom: 15px;
-
-}
-
-
-
-.products {
-
-    flex: 2;
-
-    background-color: #fff;
-
-    border-radius: 8px;
-
-    padding: 20px;
-
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-}
-
-
-
-.products-header h3 {
-
-    margin-top: 0;
-
-    text-align: center;
-
-    color: #cf0463;
-
-    border-bottom: 1px solid #eee;
-
-    padding-bottom: 10px;
-
-}
-
-
-
-.product-grid {
-
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 15px;
-
-}
-
-
-
-/* --- ESTILOS MODIFICADOS PARA EL CUADRADO 1:1 Y AJUSTE DE IMAGEN --- */
-
-.product-item {
-
-    position: relative; 
-
-    display: flex; 
-
-    flex-direction: column; 
-
-    align-items: center; 
-
-    justify-content: space-between;
-
-    background-color: #ffe2ef;
-
-    border: 3px solid #cf0463;
-
-    border-radius: 5px;
-
-    padding: 5px; 
-
-    box-sizing: border-box; 
-
-    text-align: center;
-
-    font-size: 14px; 
-
-    font-weight: 700;
-
-    height: unset; 
-
-}
-
-
-
-/* Truco CSS para forzar la proporción 1:1 (cuadrado) */
-
-.product-item::before {
-
-    content: '';
-
-    display: block;
-
-    padding-top: 100%; 
-
-}
-
-
-
-.product-image-container {
-
-    position: absolute;
-
-    top: 0;
-
-    left: 0;
-
-    right: 0;
-
-    bottom: 0;
-
-    padding-bottom: 25px; 
-
-    width: 100%;
-
-    height: 100%;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    box-sizing: border-box;
-
-    overflow: hidden; 
-
-}
-
-
-
-.product-item span {
-
-    position: absolute;
-
-    bottom: 5px;
-
-    z-index: 10;
-
-    color: #cf0463;
-
-}
-
-
-
-.product-item img {
-
-    width: 100%; 
-
-    height: 100%;
-
-    object-fit: cover; /* La clave para que la imagen cubra el área y se recorte */
-
-}
-
-/* --- FIN ESTILOS MODIFICADOS --- */
-
-
-
-
-
-.header-search {
-
-    display: flex;
-
-    border: 4px solid #cf0463;
-
-    border-radius: 20px;
-
-    overflow: hidden;
-
-    padding: 5px 10px;
-
-} 
-
-
-
-.help-us-section {
-
-    height: 85px;
-
-}
-
-
-
- .about-us-content img {
-
-    max-width: 100%;
-
-    height: auto;
-
-    margin-bottom: 15px;
-
-    border: 3px solid #cf0463;
-
-}
-/* --- ESTILOS PARA EL MODAL DE DESCRIPCIÓN (PANTALLA ROSA) --- */
 .modal {
-    display: none; /* Oculto por defecto */
+    display: none; 
     position: fixed;
-    z-index: 1000; /* Asegura que esté por encima de todo */
+    z-index: 1000; 
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente oscuro */
+    background-color: rgba(0, 0, 0, 0.6); 
 }
 
 .modal-contenido {
-    background-color: #ffe2ef; /* Color rosa del fondo (usado en el body) */
-    margin: 10% auto; /* Centrar y dar espacio */
+    background-color: #ffe2ef; 
+    margin: 10% auto; 
     padding: 30px;
-    border: 5px solid #cf0463; /* Borde rosa fuerte */
+    border: 5px solid #cf0463; 
     border-radius: 10px;
-    width: 70%; /* Pantalla grande */
+    width: 70%; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     position: relative;
 }
@@ -741,7 +240,7 @@ body {
     font-size: 35px;
     font-weight: bold;
     cursor: pointer;
-    line-height: 1; /* Para que el 'x' no sea demasiado grande */
+    line-height: 1; 
 }
 
 .cerrar-modal:hover,
@@ -751,10 +250,25 @@ body {
 }
 
 .modal-cuerpo {
-    display: flex; /* Para poner imagen y texto lado a lado */
+    display: flex;
     gap: 30px;
-    align-items: center; /* Centrar verticalmente */
+    align-items: center; 
     margin-top: 20px;
+}
+
+.modal-imagen {
+    max-width: 40%;
+    height: auto;
+    border: 3px solid #cf0463;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#modal-descripcion {
+    flex-grow: 1;
+    color: #000000; 
+    font-size: 18px;
+    text-align: justify;
 }
 
 .modal-imagen {
@@ -772,4 +286,5 @@ body {
     text-align: justify;
 }
 /* --- FIN ESTILOS MODAL --- */
+
 
