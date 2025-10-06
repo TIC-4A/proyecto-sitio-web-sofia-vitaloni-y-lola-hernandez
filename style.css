@@ -217,4 +217,13 @@ body {
     margin-bottom: 15px;
     border: 3px solid #cf0463;
 }
+.modal {
+    background-color: #ffe2ef;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border: 3px solid #cf0463;
+}
     
+    
+
